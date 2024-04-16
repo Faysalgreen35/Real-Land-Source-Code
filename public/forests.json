@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "estate_title": "Evergreen Woods",
+      "segment_name": "Forests",
+      "description": "Expansive forest with towering evergreen trees, tranquil streams, and abundant wildlife.",
+      "price": "$2,500,000",
+      "status": "sale",
+      "area": "500 acres",
+      "location": "Pacific Northwest, USA",
+      "facilities": ["hiking trails", "camping areas", "picnic spots"],
+      "image_url": "https://example.com/evergreen_woods.jpg"
+    },
+    {
+      "id": 2,
+      "estate_title": "Misty Pines Forest Reserve",
+      "segment_name": "Forests",
+      "description": "Scenic forest reserve with misty mornings and breathtaking vistas of rolling hills.",
+      "price": "$3,200,000",
+      "status": "sale",
+      "area": "700 acres",
+      "location": "Appalachian Mountains, USA",
+      "facilities": ["nature center", "observation towers", "wildlife viewing areas"],
+      "image_url": "https://example.com/misty_pines_forest_reserve.jpg"
+    },
+    {
+      "id": 3,
+      "estate_title": "Redwood Valley Wilderness",
+      "segment_name": "Forests",
+      "description": "Wilderness area with ancient redwood trees, pristine creeks, and secluded hiking trails.",
+      "price": "$5,000,000",
+      "status": "sale",
+      "area": "1000 acres",
+      "location": "Northern California, USA",
+      "facilities": ["interpretive trails", "campgrounds", "visitor center"],
+      "image_url": "https://example.com/redwood_valley_wilderness.jpg"
+    },
+    {
+      "id": 4,
+      "estate_title": "Aspen Grove Forest Retreat",
+      "segment_name": "Forests",
+      "description": "Tranquil forest retreat with groves of aspen trees and a serene atmosphere.",
+      "price": "$1,800,000",
+      "status": "sale",
+      "area": "300 acres",
+      "location": "Colorado, USA",
+      "facilities": ["cabins", "ponds", "fire pits"],
+      "image_url": "https://example.com/aspen_grove_forest_retreat.jpg"
+    },
+    {
+      "id": 5,
+      "estate_title": "Cedar Ridge Nature Preserve",
+      "segment_name": "Forests",
+      "description": "Nature preserve featuring cedar forests, limestone cliffs, and scenic overlooks.",
+      "price": "$2,000,000",
+      "status": "sale",
+      "area": "400 acres",
+      "location": "Texas, USA",
+      "facilities": ["trails", "education center", "birdwatching stations"],
+      "image_url": "https://example.com/cedar_ridge_nature_preserve.jpg"
+    },
+    {
+      "id": 6,
+      "estate_title": "Oakwood Wilderness Sanctuary",
+      "segment_name": "Forests",
+      "description": "Sanctuary with old-growth oak forests, meandering streams, and abundant wildlife.",
+      "price": "$4,500,000",
+      "status": "sale",
+      "area": "800 acres",
+      "location": "Southeastern USA",
+      "facilities": ["cabin retreats", "nature trails", "wildlife blinds"],
+      "image_url": "https://example.com/oakwood_wilderness_sanctuary.jpg"
+    }
+  ]
+  

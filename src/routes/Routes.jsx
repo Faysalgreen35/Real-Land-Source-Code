@@ -7,6 +7,7 @@ import Register from "../pages/Register/Register";
 import PrivateRoutes from './PrivateRoutes';
 import UpdateProfile from "../pages/UpdateProfile/UpdateProfile";
 import UserProfile from "../pages/UserProfile/UserProfile";
+import AgriculturalDetails from "../pages/Home/Agricultural/AgriculturalDetails/AgriculturalDetails";
 
  
 
@@ -36,6 +37,11 @@ import UserProfile from "../pages/UserProfile/UserProfile";
             {
                 path: '/userprofile',
                 element: <PrivateRoutes><UserProfile></UserProfile></PrivateRoutes>
+            },
+            {
+                path:'/agriculturalde/:id',
+                element:<AgriculturalDetails></AgriculturalDetails>,
+                loader: () => fetch('agricultural.json'),
             },
         ]
     }

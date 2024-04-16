@@ -3,92 +3,49 @@ import 'swiper/css';
 import 'swiper/css/bundle';
 import { FreeMode, Navigation, Autoplay, Pagination } from 'swiper/modules';
 
-
-
 const Banner = () => {
- 
-
     return (
-        <div className='md:max-w-6xl '>
-
+        <div className='md:max-w-6xl'>
             <Swiper
-            
-            style={{
-                '--swiper-navigation-color': 'black',
-                '--swiper-pagination-color': 'black',
-              }}
-              
-              slidesPerView={2}
-              spaceBetween={30}
-              navigation={true}
-              pagination={
-                {clickable:true}
-              }
-              
-              modules={[FreeMode, Navigation,  Autoplay, Pagination]}
-              loop= {true}
-              autoplay={
-                {delay:2000}
-              }
-              className="mySwiper3"
+                style={{
+                    '--swiper-navigation-color': 'white',
+                    '--swiper-pagination-color': 'white',
+                }}
+                slidesPerView={2}
+                spaceBetween={10}
+                navigation={true}
+                pagination={{ clickable: true }}
+                modules={[FreeMode, Navigation, Autoplay, Pagination]}
+                loop={true}
+                autoplay={{ delay: 2000 }}
+                className="mySwiper3"
             >
                 <SwiperSlide>
-
-                    <div id="slide1" className="carousel-item relative w-full">
-                        <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" className="w-full" />
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        </div>
-
+                    <div className="carousel-item relative w-full" style={{ height: '300px' }}>
+                        <img src="https://shorturl.at/jRSTW" className="w-full h-full object-cover" alt="slide1" />
+                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"></div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide><div id="slide2" className="carousel-item relative w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" className="w-full" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <SwiperSlide>
+                    <div className="carousel-item relative w-full" style={{ height: '300px' }}>
+                        <img src="https://shorturl.at/qrHU8" className="w-full h-full object-cover" alt="slide2" />
+                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"></div>
                     </div>
-                </div></SwiperSlide>
-                <SwiperSlide> <div id="slide3" className="carousel-item relative w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" className="w-full" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="carousel-item relative w-full" style={{ height: '300px' }}>
+                        <img src="https://shorturl.at/eMST8" className="w-full h-full object-cover" alt="slide3" />
+                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"></div>
                     </div>
-                </div> </SwiperSlide>
-                <SwiperSlide>  <div id="slide4" className="carousel-item relative w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" className="w-full" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="carousel-item relative w-full" style={{ height: '300px' }}>
+                        <img src="https://www.tucker-hull-law.com/wp-content/uploads/2020/01/Real-Estate-Land-Use.jpg" className="w-full h-full object-cover" alt="slide4" />
+                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"></div>
                     </div>
-                </div> </SwiperSlide>
+                </SwiperSlide>
             </Swiper>
-            {/* <div className="carousel w-full">
-                <div id="slide1" className="carousel-item relative w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" className="w-full" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" className="btn btn-circle">❮</a>
-                        <a href="#slide2" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide2" className="carousel-item relative w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" className="w-full" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" className="btn btn-circle">❮</a>
-                        <a href="#slide3" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide3" className="carousel-item relative w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" className="w-full" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" className="btn btn-circle">❮</a>
-                        <a href="#slide4" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide4" className="carousel-item relative w-full">
-                    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" className="w-full" />
-                    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" className="btn btn-circle">❮</a>
-                        <a href="#slide1" className="btn btn-circle">❯</a>
-                    </div>
-                </div>
-            </div> */}
         </div>
-        
     );
 };
 

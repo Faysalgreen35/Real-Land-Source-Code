@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "estate_title": "Sunset Ranch",
+      "segment_name": "Ranches",
+      "description": "Expansive ranch with rolling hills and grazing pastures, perfect for cattle farming and equestrian activities.",
+      "price": "$2,000,000",
+      "status": "sale",
+      "area": "300 acres",
+      "location": "Montana, USA",
+      "facilities": ["horse barn", "corral", "guest lodge"],
+      "image_url": "https://example.com/sunset_ranch.jpg"
+    },
+    {
+      "id": 2,
+      "estate_title": "Blue Sky Ranch",
+      "segment_name": "Ranches",
+      "description": "Picturesque ranch nestled in a valley with stunning mountain views and abundant wildlife.",
+      "price": "$1,800,000",
+      "status": "sale",
+      "area": "200 acres",
+      "location": "Colorado, USA",
+      "facilities": ["cattle pens", "hay barn", "ranch manager's house"],
+      "image_url": "https://example.com/blue_sky_ranch.jpg"
+    },
+    {
+      "id": 3,
+      "estate_title": "Silver Creek Ranch",
+      "segment_name": "Ranches",
+      "description": "Scenic ranch with a meandering creek, ideal for fishing and recreational activities.",
+      "price": "$1,500,000",
+      "status": "sale",
+      "area": "150 acres",
+      "location": "Wyoming, USA",
+      "facilities": ["fishing lodge", "riding trails", "bunkhouse"],
+      "image_url": "https://example.com/silver_creek_ranch.jpg"
+    },
+    {
+      "id": 4,
+      "estate_title": "Golden Valley Ranch",
+      "segment_name": "Ranches",
+      "description": "Productive ranch land with fertile soil and ample water sources, suitable for various agricultural pursuits.",
+      "price": "$3,500,000",
+      "status": "sale",
+      "area": "500 acres",
+      "location": "California, USA",
+      "facilities": ["equipment barn", "orchard", "farm manager's residence"],
+      "image_url": "https://example.com/golden_valley_ranch.jpg"
+    },
+    {
+      "id": 5,
+      "estate_title": "Rocky Ridge Ranch",
+      "segment_name": "Ranches",
+      "description": "Rugged ranch terrain with rocky outcrops and expansive views, perfect for outdoor enthusiasts.",
+      "price": "$1,200,000",
+      "status": "sale",
+      "area": "100 acres",
+      "location": "Utah, USA",
+      "facilities": ["hiking trails", "camping area", "rustic cabin"],
+      "image_url": "https://example.com/rocky_ridge_ranch.jpg"
+    },
+    {
+      "id": 6,
+      "estate_title": "Highland Ranch",
+      "segment_name": "Ranches",
+      "description": "Elevated ranch land with panoramic vistas and fresh mountain air, suitable for a private retreat or agricultural operation.",
+      "price": "$2,500,000",
+      "status": "sale",
+      "area": "400 acres",
+      "location": "Colorado, USA",
+      "facilities": ["mountain lodge", "wildlife observation blinds", "helipad"],
+      "image_url": "https://example.com/highland_ranch.jpg"
+    }
+  ]
+  

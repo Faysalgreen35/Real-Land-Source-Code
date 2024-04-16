@@ -63,9 +63,11 @@ const Login = () => {
                 <title>Real Land |Login Page</title>
             </Helmet>
             
-            <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content flex-col  ">
-                <h1 className="text-5xl font-bold px-36"> Please Login </h1>
+            {/* <div className="hero min-h-screen bg-base-200"> */}
+            <div className="hero min-h-screen bg-base-200" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
+
+                <div className="hero-content flex-col  hero-overlay bg-opacity-60">
+                <h1 className="text-5xl text-white font-bold px-36"> Please Login </h1>
                    
                     <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form onSubmit={handleSubmit(onSubmit)} className="card-body">

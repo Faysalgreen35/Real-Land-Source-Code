@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "estate_title": "Sunset Vineyard Estates",
+      "segment_name": "Vineyards",
+      "description": "Stunning vineyard estate with meticulously tended grapevines and a luxurious winery.",
+      "price": "$3,500,000",
+      "status": "sale",
+      "area": "100 acres",
+      "location": "Napa Valley, California, USA",
+      "facilities": ["winery", "tasting room", "cellar"],
+      "image_url": "https://example.com/sunset_vineyard_estates.jpg"
+    },
+    {
+      "id": 2,
+      "estate_title": "Golden Hills Winery",
+      "segment_name": "Vineyards",
+      "description": "Award-winning winery nestled in the rolling hills, known for its exceptional wines.",
+      "price": "$2,800,000",
+      "status": "sale",
+      "area": "80 acres",
+      "location": "Sonoma Valley, California, USA",
+      "facilities": ["vineyard", "production facility", "tasting terrace"],
+      "image_url": "https://example.com/golden_hills_winery.jpg"
+    },
+    {
+      "id": 3,
+      "estate_title": "Harmony Vineyards",
+      "segment_name": "Vineyards",
+      "description": "Picturesque vineyard with a focus on sustainable farming practices and premium grape varietals.",
+      "price": "$4,200,000",
+      "status": "sale",
+      "area": "150 acres",
+      "location": "Willamette Valley, Oregon, USA",
+      "facilities": ["sustainability center", "event space", "guest cottages"],
+      "image_url": "https://example.com/harmony_vineyards.jpg"
+    },
+    {
+      "id": 4,
+      "estate_title": "Sunrise Valley Vineyards",
+      "segment_name": "Vineyards",
+      "description": "Scenic vineyard with a variety of grape cultivars and panoramic views of the surrounding valley.",
+      "price": "$2,300,000",
+      "status": "sale",
+      "area": "120 acres",
+      "location": "Finger Lakes, New York, USA",
+      "facilities": ["vineyard", "wine production facilities", "event space"],
+      "image_url": "https://example.com/sunrise_valley_vineyards.jpg"
+    },
+    {
+      "id": 5,
+      "estate_title": "Mountain View Winery",
+      "segment_name": "Vineyards",
+      "description": "Charming winery with vine-covered hillsides and breathtaking views of the mountains.",
+      "price": "$3,000,000",
+      "status": "sale",
+      "area": "200 acres",
+      "location": "Columbia Valley, Washington, USA",
+      "facilities": ["vineyard", "winery building", "outdoor seating area"],
+      "image_url": "https://example.com/mountain_view_winery.jpg"
+    },
+    {
+      "id": 6,
+      "estate_title": "Riverfront Vineyards",
+      "segment_name": "Vineyards",
+      "description": "Riverside vineyard offering a serene setting and premium grapes for wine production.",
+      "price": "$3,800,000",
+      "status": "sale",
+      "area": "180 acres",
+      "location": "Rogue Valley, Oregon, USA",
+      "facilities": ["vineyard", "winery", "event pavilion"],
+      "image_url": "https://example.com/riverfront_vineyards.jpg"
+    }
+  ]
+  

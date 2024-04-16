@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "estate_title": "Tropical Paradise Plantation",
+      "segment_name": "Plantations",
+      "description": "Lush tropical plantation featuring a variety of exotic fruits, palm trees, and vibrant flora.",
+      "price": "$3,000,000",
+      "status": "sale",
+      "area": "200 acres",
+      "location": "Hawaii, USA",
+      "facilities": ["processing facility", "workers' quarters", "irrigation system"],
+      "image_url": "https://example.com/tropical_paradise_plantation.jpg"
+    },
+    {
+      "id": 2,
+      "estate_title": "Tea Haven Plantation",
+      "segment_name": "Plantations",
+      "description": "Idyllic tea plantation nestled in the hills, known for its premium tea leaves and scenic beauty.",
+      "price": "$2,500,000",
+      "status": "sale",
+      "area": "150 acres",
+      "location": "Darjeeling, India",
+      "facilities": ["tea processing factory", "tea tasting room", "manager's residence"],
+      "image_url": "https://example.com/tea_haven_plantation.jpg"
+    },
+    {
+      "id": 3,
+      "estate_title": "Cocoa Grove Plantation",
+      "segment_name": "Plantations",
+      "description": "Expansive cocoa plantation with rows of cocoa trees yielding high-quality cocoa beans.",
+      "price": "$4,200,000",
+      "status": "sale",
+      "area": "300 acres",
+      "location": "Ghana, Africa",
+      "facilities": ["cocoa drying facility", "storage warehouses", "workers' housing"],
+      "image_url": "https://example.com/cocoa_grove_plantation.jpg"
+    },
+    {
+      "id": 4,
+      "estate_title": "Sugarcane Fields Plantation",
+      "segment_name": "Plantations",
+      "description": "Vast sugarcane plantation with fields of tall cane and modern sugar processing facilities.",
+      "price": "$5,500,000",
+      "status": "sale",
+      "area": "500 acres",
+      "location": "Brazil, South America",
+      "facilities": ["sugar mill", "refinery", "workers' village"],
+      "image_url": "https://example.com/sugarcane_fields_plantation.jpg"
+    },
+    {
+      "id": 5,
+      "estate_title": "Rubber Grove Plantation",
+      "segment_name": "Plantations",
+      "description": "Rubber plantation producing high-quality latex from rows of rubber trees.",
+      "price": "$3,800,000",
+      "status": "sale",
+      "area": "250 acres",
+      "location": "Malaysia, Asia",
+      "facilities": ["rubber processing plant", "tapping stations", "management offices"],
+      "image_url": "https://example.com/rubber_grove_plantation.jpg"
+    },
+    {
+      "id": 6,
+      "estate_title": "Coconut Haven Plantation",
+      "segment_name": "Plantations",
+      "description": "Picturesque coconut plantation with swaying palms and bountiful coconut production.",
+      "price": "$2,200,000",
+      "status": "sale",
+      "area": "120 acres",
+      "location": "Thailand, Asia",
+      "facilities": ["coconut processing facility", "worker housing", "water irrigation system"],
+      "image_url": "https://example.com/coconut_haven_plantation.jpg"
+    }
+  ]
+  

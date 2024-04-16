@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "estate_title": "Green Acres Farm",
+      "segment_name": "Agricultural Land",
+      "description": "Beautiful farmland with fertile soil, perfect for growing crops and raising livestock.",
+      "price": "$500,000",
+      "status": "sale",
+      "area": "20 acres",
+      "location": "Midwest, USA",
+      "facilities": ["irrigation system", "barn", "farmhouse"],
+      "image_url": "https://rb.gy/708fqf"
+    },
+    {
+      "id": 2,
+      "estate_title": "Sunrise Vineyards",
+      "segment_name": "Agricultural Land",
+      "description": "Scenic vineyard with mature grapevines, ideal for wine production.",
+      "price": "$1,200,000",
+      "status": "rent",
+      "area": "50 acres",
+      "location": "California, USA",
+      "facilities": ["tasting room", "storage cellar", "processing facility"],
+      "image_url": "https://shorturl.at/vyV07"
+    },
+    {
+      "id": 3,
+      "estate_title": "Oakwood Ranch",
+      "segment_name": "Agricultural Land",
+      "description": "Sprawling ranch land with lush pastures and natural water sources.",
+      "price": "$750,000",
+      "status": "sale",
+      "area": "100 acres",
+      "location": "Texas, USA",
+      "facilities": ["horse stables", "riding trails", "stock ponds"],
+      "image_url": "https://shorturl.at/iABMS"
+    },
+    {
+      "id": 4,
+      "estate_title": "Golden Fields Farm",
+      "segment_name": "Agricultural Land",
+      "description": "Productive farm with multiple crop fields and modern farming equipment.",
+      "price": "$900,000",
+      "status": "sale",
+      "area": "80 acres",
+      "location": "Midwest, USA",
+      "facilities": ["tractor shed", "greenhouses", "packing shed"],
+      "image_url": "https://example.com/golden_fields_farm.jpg"
+    },
+    {
+      "id": 5,
+      "estate_title": "Maple Grove Orchard",
+      "segment_name": "Agricultural Land",
+      "description": "Charming orchard with a variety of fruit trees and scenic views.",
+      "price": "$600,000",
+      "status": "rent",
+      "area": "30 acres",
+      "location": "New England, USA",
+      "facilities": ["fruit packing house", "staff quarters", "equipment storage"],
+      "image_url": "https://example.com/maple_grove_orchard.jpg"
+    },
+    {
+      "id": 6,
+      "estate_title": "Pine Ridge Forest",
+      "segment_name": "Agricultural Land",
+      "description": "Vast forest land with mature timber and abundant wildlife.",
+      "price": "$1,500,000",
+      "status": "sale",
+      "area": "500 acres",
+      "location": "Pacific Northwest, USA",
+      "facilities": ["hiking trails", "hunting cabin", "logging roads"],
+      "image_url": "https://example.com/pine_ridge_forest.jpg"
+    }
+  ]
+  

@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "estate_title": "Golden Harvest Farm",
+      "segment_name": "Farms",
+      "description": "Highly productive farm with fertile fields and modern agricultural infrastructure.",
+      "price": "$1,800,000",
+      "status": "sale",
+      "area": "250 acres",
+      "location": "Iowa, USA",
+      "facilities": ["crop storage silos", "farmhouse", "equipment shed"],
+      "image_url": "https://example.com/golden_harvest_farm.jpg"
+    },
+    {
+      "id": 2,
+      "estate_title": "Sunrise Dairy Farm",
+      "segment_name": "Farms",
+      "description": "Established dairy farm with a large herd and state-of-the-art milking facilities.",
+      "price": "$2,500,000",
+      "status": "sale",
+      "area": "350 acres",
+      "location": "Wisconsin, USA",
+      "facilities": ["milking parlor", "bunk silos", "farm manager's house"],
+      "image_url": "https://example.com/sunrise_dairy_farm.jpg"
+    },
+    {
+      "id": 3,
+      "estate_title": "Green Pastures Organic Farm",
+      "segment_name": "Farms",
+      "description": "Certified organic farm specializing in a variety of vegetables and fruits.",
+      "price": "$1,600,000",
+      "status": "sale",
+      "area": "200 acres",
+      "location": "California, USA",
+      "facilities": ["greenhouse", "packing shed", "organic certification"],
+      "image_url": "https://example.com/green_pastures_farm.jpg"
+    },
+    {
+      "id": 4,
+      "estate_title": "Windy Hill Poultry Farm",
+      "segment_name": "Farms",
+      "description": "Profitable poultry farm with multiple chicken houses and processing facilities.",
+      "price": "$1,200,000",
+      "status": "sale",
+      "area": "150 acres",
+      "location": "Georgia, USA",
+      "facilities": ["chicken houses", "processing plant", "feed mill"],
+      "image_url": "https://example.com/windy_hill_poultry_farm.jpg"
+    },
+    {
+      "id": 5,
+      "estate_title": "Sunny Fields Wheat Farm",
+      "segment_name": "Farms",
+      "description": "Expansive wheat farm with vast fields of golden grain ready for harvest.",
+      "price": "$1,400,000",
+      "status": "sale",
+      "area": "180 acres",
+      "location": "Kansas, USA",
+      "facilities": ["grain storage bins", "farm office", "equipment workshop"],
+      "image_url": "https://example.com/sunny_fields_wheat_farm.jpg"
+    },
+    {
+      "id": 6,
+      "estate_title": "Riverbend Vineyard Farm",
+      "segment_name": "Farms",
+      "description": "Scenic farm featuring a vineyard with premium wine grapes and a charming farmhouse.",
+      "price": "$2,200,000",
+      "status": "sale",
+      "area": "300 acres",
+      "location": "Oregon, USA",
+      "facilities": ["wine tasting room", "wine cellar", "vineyard manager's cottage"],
+      "image_url": "https://example.com/riverbend_vineyard_farm.jpg"
+    }
+  ]
+  

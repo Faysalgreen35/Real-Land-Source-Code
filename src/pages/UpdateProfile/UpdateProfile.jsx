@@ -2,6 +2,7 @@
 import { useContext, useState } from "react"; 
 import { updateProfile } from "firebase/auth";
 import { AuthContext } from "../../providers/AuthProvider";
+import { Helmet } from "react-helmet-async";
 
 const UpdateProfile = () => {
     const { user } = useContext(AuthContext);
@@ -24,6 +25,9 @@ const UpdateProfile = () => {
 
     return (
         <div className="md:max-w-2xl p-12 mx-auto mt-8 bg-gray-400  shadow-xl mb-12">
+            <Helmet>
+            <title className="font-jacquard">Real Land | UpdateProfile</title>
+            </Helmet>
     <h2 className="text-2xl font-bold mb-4">Update Profile</h2>
     <form>
         <div className="mb-4">

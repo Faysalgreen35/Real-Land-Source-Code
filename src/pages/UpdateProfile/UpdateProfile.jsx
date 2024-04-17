@@ -1,5 +1,5 @@
- 
-import { useContext, useState } from "react"; 
+
+import { useContext, useState } from "react";
 import { updateProfile } from "firebase/auth";
 import { AuthContext } from "../../providers/AuthProvider";
 import { Helmet } from "react-helmet-async";
@@ -24,48 +24,50 @@ const UpdateProfile = () => {
     };
 
     return (
-        <div className="md:max-w-2xl p-12 mx-auto mt-8 bg-gray-400  shadow-xl mb-12">
+        // <div className="md:max-w-2xl p-12 mx-auto mt-8 bg-gray-400  shadow-xl mb-12">
+        <div className="hero min-h-screen bg-base-200" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
+
             <Helmet>
-            <title className="font-jacquard">Real Land | UpdateProfile</title>
+                <title className="font-jacquard">Real Land | UpdateProfile</title>
             </Helmet>
-    <h2 className="text-2xl font-bold mb-4">Update Profile</h2>
-    <form>
-        <div className="mb-4">
-            <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
-                Name:
-            </label>
-            <input
-                id="name"
-                type="text"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                className="border rounded px-4 py-2 w-full focus:outline-none focus:border-blue-500"
-            />
+            
+            <form className="bg-base-200 px-12">
+            <h2 className="text-2xl font-bold mb-4 bg-base-200 px-12 py-4">Update Profile</h2>
+                <div className="mb-4">
+                    <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
+                        Name:
+                    </label>
+                    <input
+                        id="name"
+                        type="text"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        className="border rounded px-4 py-2 w-full focus:outline-none focus:border-blue-500"
+                    />
+                </div>
+                <div className="mb-4">
+                    <label htmlFor="photoURL" className="block text-gray-700 font-bold mb-2">
+                        Photo URL:
+                    </label>
+                    <input
+                        id="photoURL"
+                        type="text"
+                        value={photoURL}
+                        onChange={(e) => setPhotoURL(e.target.value)}
+                        className="border rounded px-4 py-2 w-full focus:outline-none focus:border-blue-500"
+                    />
+                </div>
+                <button
+                    type="button"
+                    onClick={handleSaveChanges}
+                    disabled={saving}
+                    className={`bg-blue-500 text-white mb-12 px-4 py-2 rounded focus:outline-none ${saving ? "opacity-50 cursor-not-allowed" : ""
+                        }`}
+                >
+                    {saving ? "Saving..." : "Save Changes"}
+                </button>
+            </form>
         </div>
-        <div className="mb-4">
-            <label htmlFor="photoURL" className="block text-gray-700 font-bold mb-2">
-                Photo URL:
-            </label>
-            <input
-                id="photoURL"
-                type="text"
-                value={photoURL}
-                onChange={(e) => setPhotoURL(e.target.value)}
-                className="border rounded px-4 py-2 w-full focus:outline-none focus:border-blue-500"
-            />
-        </div>
-        <button
-            type="button"
-            onClick={handleSaveChanges}
-            disabled={saving}
-            className={`bg-blue-500 text-white mb-12 px-4 py-2 rounded focus:outline-none ${
-                saving ? "opacity-50 cursor-not-allowed" : ""
-            }`}
-        >
-            {saving ? "Saving..." : "Save Changes"}
-        </button>
-    </form>
-</div>
 
     );
 };

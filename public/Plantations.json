@@ -9,7 +9,7 @@
       "area": "200 acres",
       "location": "Hawaii, USA",
       "facilities": ["processing facility", "workers' quarters", "irrigation system"],
-      "image_url": "https://example.com/tropical_paradise_plantation.jpg"
+      "image_url": "https://shorturl.at/dmzI8"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "area": "150 acres",
       "location": "Darjeeling, India",
       "facilities": ["tea processing factory", "tea tasting room", "manager's residence"],
-      "image_url": "https://example.com/tea_haven_plantation.jpg"
+      "image_url": "https://shorturl.at/cfLY3"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "area": "300 acres",
       "location": "Ghana, Africa",
       "facilities": ["cocoa drying facility", "storage warehouses", "workers' housing"],
-      "image_url": "https://example.com/cocoa_grove_plantation.jpg"
+      "image_url": "https://shorturl.at/djBM9"
     },
     {
       "id": 4,

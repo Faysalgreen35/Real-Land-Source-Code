@@ -1,6 +1,12 @@
 import { Helmet } from "react-helmet-async";
 import Banner from "./Banner";
 import Agriculturals from "./Agricultural/Agriculturals";
+import Farms from "./Farms/Farms";
+import Forests from "./Forests/Forests";
+import Plantations from "./Plantations/Plantations";
+import Ranches from "./Ranches/Ranches";
+import Vineyards from "./Vineyards/Vineyards";
+import NewsLetter from "./NewsLetter/NewsLetter";
 
 
 
@@ -13,7 +19,7 @@ const Home = () => {
             <Banner></Banner>
             <div className="mt-12 text-center mx-auto  ">
                 <h1 className="text-center font-inter font-bold text-5xl">Discover The Latest Properties</h1>
-                <p className="text-center font-inter font-bold text-gray-400 mt-12 text-2xl">Find a property that iss  right for you.</p>
+                <p className="text-center font-inter font-bold text-gray-400 mt-12 text-2xl">Find a property that is  right for you.</p>
             </div>
             <div role="tablist" className="hidden lg:block tabs lg:tabs-lifted lg:tabs-lg mt-12 uppercase font-bold font-playfair text-center lg:px-24">
 
@@ -25,6 +31,12 @@ const Home = () => {
                 <a role="tab" className="tab">Plantations</a>
             </div>
             <Agriculturals></Agriculturals>
+            <Farms></Farms>
+            <Forests></Forests>
+            <Plantations></Plantations>
+            <Ranches></Ranches>
+            <Vineyards></Vineyards>
+            <NewsLetter></NewsLetter>
             
         </div>
     );

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Agricultural = ({ agricultural }) => {
 
-  const { estate_title,id, description, price, status, area, location, facilities, image_url } = agricultural;
+  const { estate_title, id, description, price, status, area, location, facilities, image_url } = agricultural;
 
   return (
 
@@ -41,16 +41,16 @@ const Agricultural = ({ agricultural }) => {
           </div>
         </div>
       </div>
-      <Link className="text-blue-500" to={`/agriculturalde/${id}`}> 
-      <div className="px-6 pt-4 pb-2">
-        
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-          View Property
-        </button>
-      </div>
+      <Link className="text-blue-500" to={`/agriculturalde/${id}`}>
+        <div className="px-6 pt-4 pb-2">
 
-        </Link>
-     
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            View Property
+          </button>
+        </div>
+
+      </Link>
+
     </div>
   );
 };

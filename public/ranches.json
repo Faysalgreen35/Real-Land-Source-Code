@@ -9,7 +9,7 @@
       "area": "300 acres",
       "location": "Montana, USA",
       "facilities": ["horse barn", "corral", "guest lodge"],
-      "image_url": "https://example.com/sunset_ranch.jpg"
+      "image_url": "https://rb.gy/dhw3lm"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "area": "200 acres",
       "location": "Colorado, USA",
       "facilities": ["cattle pens", "hay barn", "ranch manager's house"],
-      "image_url": "https://example.com/blue_sky_ranch.jpg"
+      "image_url": "https://rb.gy/oqlwgq"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "area": "150 acres",
       "location": "Wyoming, USA",
       "facilities": ["fishing lodge", "riding trails", "bunkhouse"],
-      "image_url": "https://example.com/silver_creek_ranch.jpg"
+      "image_url": "https://rb.gy/ynitsx"
     },
     {
       "id": 4,

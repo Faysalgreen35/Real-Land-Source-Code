@@ -8,6 +8,12 @@ import PrivateRoutes from './PrivateRoutes';
 import UpdateProfile from "../pages/UpdateProfile/UpdateProfile";
 import UserProfile from "../pages/UserProfile/UserProfile";
 import AgriculturalDetails from "../pages/Home/Agricultural/AgriculturalDetails/AgriculturalDetails";
+import FarmDetails from "../pages/Home/Farms/FarmDetails/FarmDetails";
+import ForestDetails from "../pages/Home/Forests/ForestDetails";
+import PlantationDetails from "../pages/Home/Plantations/PlantationDetails";
+import RancheDetails from "../pages/Home/Ranches/RancheDetails";
+import VineyardDetails from "../pages/Home/Vineyards/VineyardDetails";
+import Blog from "../pages/Blog/Blog";
 
  
 
@@ -21,6 +27,10 @@ import AgriculturalDetails from "../pages/Home/Agricultural/AgriculturalDetails/
                 path: '/',
                 element:<Home></Home>
 
+            },
+            {
+                path:'/blog',
+                element: <Blog></Blog>
             },
             {
                 path:'/login',
@@ -42,6 +52,32 @@ import AgriculturalDetails from "../pages/Home/Agricultural/AgriculturalDetails/
                 path:'/agriculturalde/:id',
                 element:<AgriculturalDetails></AgriculturalDetails>,
                 loader: () => fetch('agricultural.json'),
+            },
+            {
+                path:'/farms/:id',
+                element:<FarmDetails></FarmDetails>,
+                loader: () => fetch('farm.json'),
+            },
+            {
+                path:'/forest/:id',
+                element:<ForestDetails></ForestDetails>,
+                loader: () => fetch('forests.json'),
+            },
+            
+            {
+                path:'/plantation/:id',
+                element:<PlantationDetails></PlantationDetails>,
+                loader: () => fetch('plantations.json'),
+            },
+            {
+                path:'/ranches/:id',
+                element:<RancheDetails></RancheDetails>,
+                loader: () => fetch('ranches.json'),
+            },
+            {
+                path:'/vineyards/:id',
+                element:<VineyardDetails></VineyardDetails>,
+                loader: () => fetch('vineyards.json'),
             },
         ]
     }

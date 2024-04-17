@@ -9,7 +9,7 @@
       "area": "500 acres",
       "location": "Pacific Northwest, USA",
       "facilities": ["hiking trails", "camping areas", "picnic spots"],
-      "image_url": "https://example.com/evergreen_woods.jpg"
+      "image_url": "https://shorturl.at/vMOP3"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "area": "700 acres",
       "location": "Appalachian Mountains, USA",
       "facilities": ["nature center", "observation towers", "wildlife viewing areas"],
-      "image_url": "https://example.com/misty_pines_forest_reserve.jpg"
+      "image_url": "https://shorturl.at/J0289"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "area": "1000 acres",
       "location": "Northern California, USA",
       "facilities": ["interpretive trails", "campgrounds", "visitor center"],
-      "image_url": "https://example.com/redwood_valley_wilderness.jpg"
+      "image_url": "https://shorturl.at/fjluU"
     },
     {
       "id": 4,

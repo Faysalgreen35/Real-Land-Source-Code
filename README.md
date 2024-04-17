@@ -1,7 +1,7 @@
 # Real Land
 
 ## Live Site URL
-[Visit Real Land](https://real-estate-land-2c851.web.app/)
+[Visit Real Land](https://real-estate-land-2c851.web.app//)
 
 ## Description
 Real Land is a comprehensive online platform dedicated to agricultural land, ranches, farms, vineyards, forests, and plantations. It serves as a marketplace and informational hub for buyers, sellers, investors, and enthusiasts interested in land-related properties and assets.
@@ -15,7 +15,7 @@ Real Land is a comprehensive online platform dedicated to agricultural land, ran
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/programming-hero-web-course-4/b9a9-real-estate-Faysalgreen35?tab=readme-ov-file`
-2. Navigate to the project directory: `cd Real Land`
+2. Navigate to the project directory: `cd Real-Land`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm run dev`
 
@@ -25,7 +25,7 @@ Once the development server is running, visit `http://localhost:3000` in your we
 ## Challenges Task
 For this project, I have implemented the following npm packages to address specific challenges:
 - **Swiper Slider**: I used the Swiper package to create interactive sliders for showcasing property images and other visual content.
-- **AOS Package**: I used the AOS package to add animations to various elements on the website, enhancing the user experience and visual appeal.
+- **AOS Package**: I used the AOS package to add animations to my Blog, enhancing the user experience and visual appeal.
 - **React Hook Form**: I implemented React Hook Form to manage and validate complex forms efficiently, providing a seamless experience for users when submitting inquiries or contact forms.
 
 

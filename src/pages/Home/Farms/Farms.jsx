@@ -25,7 +25,7 @@ const Farms = () => {
         <h3 className='text-4xl m-8'>Farm Land</h3>
        
         <div className="flex">
-            <button className="btn-green-500  btn">Farms Land News</button>
+            <button className="btn-green-500 font-inter btn">Farms Land News</button>
             <Marquee  pauseOnHover="true" speed={200}> 
                 <Link className="mr-12" to='/'>
                 Unlock the potential of Farms land with our expert services. From soil enrichment to precision farming, we maximize yields sustainably. Boost productivity and profitability today!

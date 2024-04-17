@@ -99,7 +99,7 @@ const Login = () => {
                             <p className="text-center"><button onClick={handleGoogleSignIn} className="btn text-5xl"><FcGoogle /></button></p>
                             <p className="text-center"><button onClick={handleGithubSignIn} className="btn  text-5xl "><FaGithub /></button></p>
                         </div>
-                        <p className="p-4 text-center">Don not have account <Link className="text-blue-500" to='/register'>Register</Link></p>
+                        <p className="p-4 text-center mt-3">Don not have account <Link className="text-blue-500 text-2xl" to='/register'>Register</Link></p>
                     </div>
                 </div>
             </div>

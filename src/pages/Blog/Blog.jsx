@@ -9,8 +9,8 @@ import { Helmet } from 'react-helmet-async';
 const Blog = () => {
     useEffect(() => {
         AOS.init({
-            duration: 1000, // animation duration in milliseconds
-            once: true, // whether animation should happen only once while scrolling down
+            duration: 1000, 
+            once: true, 
         });
     }, []);
 
@@ -40,22 +40,22 @@ const Blog = () => {
                 <h2 className="text-3xl font-bold mb-6">Related Posts</h2>
                 {/* Content for Related Posts section */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                    <div className="bg-white shadow-lg rounded-lg p-6">
+                    <div className="bg-white shadow-lg rounded-lg p-6 font-playfair" >
                         <img src="https://media.istockphoto.com/id/1205274326/photo/male-hand-showing-offering-a-new-dream-house-at-the-empty-field-with-copy-space.jpg?s=612x612&w=0&k=20&c=FoSq0uugQxhoCcML1pCdrXAuLzKHosgQXz4w4Z6nT3Q=" alt="" />
-                        <h3 className="text-xl font-semibold mb-2">Related Post </h3>
-                        <p className="text-gray-700 mb-4">Common entry points are cracks in the foundation, poorly sealed pipes, drainage or any other loose point. Once in the home, the gas can collect in certain areas</p>
+                        <h3 className="text-xl font-bold mb-2">Golden Harvest Farm </h3>
+                        <p className="text-gray-700 mb-4">Highly productive farm with fertile fields and modern agricultural infrastructure...</p>
                         <a href="#" className="text-blue-500 hover:underline">Read more</a>
                     </div>
-                    <div className="bg-white shadow-lg rounded-lg p-6">
+                    <div className="bg-white shadow-lg rounded-lg p-6 font-inter">
                         <img src="https://media.istockphoto.com/id/958326808/photo/house-project-on-the-meadow-concept-of-dreams-about-a-new-home-contours-of-the-house-in-3d-on.jpg?s=612x612&w=0&k=20&c=ByISs4wcg4NE5SpTbF9E9UfRZr5V8LgQoZZHikDm0UE=" alt="" />
-                        <h3 className="text-xl font-semibold mb-2">Related Post </h3>
-                        <p className="text-gray-700 mb-4">As humans are exposed to the gas over a period of years, it can have a significant and detrimental effect.</p>
+                        <h3 className="text-xl font-semibold mb-2">Misty Pines Forest Reserve Post </h3>
+                        <p className="text-gray-700 mb-4">Scenic forest reserve with misty mornings and breathtaking vistas of rolling hills....</p>
                         <a href="#" className="text-blue-500 hover:underline">Read more</a>
                     </div>
                     <div className="bg-white shadow-lg rounded-lg p-6">
                         <img src="https://media.istockphoto.com/id/473874474/photo/hand-hold-house.jpg?s=612x612&w=0&k=20&c=xMcQ9KpeEom4FzqH6UrTyGQ6BPgE8NU70S85KEbrFfs=" alt="" />
-                        <h3 className="text-xl font-semibold mb-2">Related Post </h3>
-                        <p className="text-gray-700 mb-4">Radon gas is created when uranium in the soil decays. The gas then seeps through any access point into a home..</p>
+                        <h3 className="text-xl font-semibold mb-2">Sunset Vineyard Estates Post </h3>
+                        <p className="text-gray-700 mb-4">Stunning vineyard estate with meticulously tended grapevines and a luxurious winery...</p>
                         <a href="#" className="text-blue-500 hover:underline">Read more</a>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ const Blog = () => {
             <div data-aos="fade-up">
                 <h2 className="text-3xl font-bold mb-6">Leave a Reply</h2>
                 {/* Content for Leave a Reply section */}
-                <form>
+                <form className='bg-gray-200 px-12 py-12 shadow-2xl'>
                     <div className="mb-4">
                         <label htmlFor="name" className="block text-gray-700">Name:</label>
                         <input type="text" id="name" name="name" className="border rounded-md px-4 py-2 w-full focus:outline-none focus:border-blue-500" />

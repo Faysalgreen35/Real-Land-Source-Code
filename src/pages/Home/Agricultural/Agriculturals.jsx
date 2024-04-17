@@ -19,9 +19,9 @@ const Agriculturals = () => {
     return (
         <div className='  md:max-w-6xl mx-auto '>
         <div className='text-center'>
-        <h3 className='text-4xl m-8'>Agricultural Land</h3>
+        <h3 className='text-4xl m-8 font-mono'>Agricultural Land</h3>
        
-        <div className="flex">
+        <div className="flex   ">
             <button className="btn-green-500  btn">Agricultural Land News</button>
             <Marquee  pauseOnHover="true" speed={200}> 
                 <Link className="mr-12" to='/'>

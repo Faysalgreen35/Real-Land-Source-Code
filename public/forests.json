@@ -17,7 +17,7 @@
       "segment_name": "Forests",
       "description": "Scenic forest reserve with misty mornings and breathtaking vistas of rolling hills.",
       "price": "$3,200,000",
-      "status": "sale",
+      "status": "rent",
       "area": "700 acres",
       "location": "Appalachian Mountains, USA",
       "facilities": ["nature center", "observation towers", "wildlife viewing areas"],

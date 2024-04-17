@@ -17,7 +17,7 @@
       "segment_name": "Ranches",
       "description": "Picturesque ranch nestled in a valley with stunning mountain views and abundant wildlife.",
       "price": "$1,800,000",
-      "status": "sale",
+      "status": "rent",
       "area": "200 acres",
       "location": "Colorado, USA",
       "facilities": ["cattle pens", "hay barn", "ranch manager's house"],

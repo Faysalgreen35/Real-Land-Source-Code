@@ -5,7 +5,7 @@
       "segment_name": "Plantations",
       "description": "Lush tropical plantation featuring a variety of exotic fruits, palm trees, and vibrant flora.",
       "price": "$3,000,000",
-      "status": "sale",
+      "status": "rent",
       "area": "200 acres",
       "location": "Hawaii, USA",
       "facilities": ["processing facility", "workers' quarters", "irrigation system"],

@@ -17,7 +17,7 @@
       "segment_name": "Vineyards",
       "description": "Award-winning winery nestled in the rolling hills, known for its exceptional wines.",
       "price": "$2,800,000",
-      "status": "sale",
+      "status": "rent",
       "area": "80 acres",
       "location": "Sonoma Valley, California, USA",
       "facilities": ["vineyard", "production facility", "tasting terrace"],

@@ -1,25 +1,11 @@
- 
 
-// const RancheDetails = () => {
-//     return (
-//         <div>
-            
-//         </div>
-//     );
-// };
-
-// export default RancheDetails;
-
- 
- 
- 
 
 import { CiLocationOn } from "react-icons/ci";
 import { useLoaderData, useParams } from "react-router-dom";
 
 const RancheDetails = () => {
     const Agricultural = useLoaderData();
-    // console.log('news of ', news)
+
     const { id } = useParams();
 
     const intNewsId = parseInt(id);
@@ -27,7 +13,7 @@ const RancheDetails = () => {
 
     const agriculturalDetails = Agricultural.find(agriculturalDetails => agriculturalDetails.id === intNewsId);
 
-    // console.log(agriculturalDetails);
+
 
     return (
         <div>
@@ -44,21 +30,21 @@ const RancheDetails = () => {
                         </div>
                     </div>
                     <div id="slide2" className="carousel-item relative w-full">
-                        <img src={agriculturalDetails.image_url} className="w-full" />
+                        <img src={agriculturalDetails.image_url} className="w-full md:h-80" />
                         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide1" className="btn btn-circle">❮</a>
                             <a href="#slide3" className="btn btn-circle">❯</a>
                         </div>
                     </div>
                     <div id="slide3" className="carousel-item relative w-full">
-                        <img src={agriculturalDetails.image_url} className="w-full" />
+                        <img src={agriculturalDetails.image_url} className="w-full md:h-80" />
                         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide2" className="btn btn-circle">❮</a>
                             <a href="#slide4" className="btn btn-circle">❯</a>
                         </div>
                     </div>
                     <div id="slide4" className="carousel-item relative w-full">
-                        <img src={agriculturalDetails.image_url} className="w-full" />
+                        <img src={agriculturalDetails.image_url} className="w-full md:h-80" />
                         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="#slide3" className="btn btn-circle">❮</a>
                             <a href="#slide1" className="btn btn-circle">❯</a>

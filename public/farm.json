@@ -5,11 +5,11 @@
       "segment_name": "Farms",
       "description": "Highly productive farm with fertile fields and modern agricultural infrastructure.",
       "price": "$1,800,000",
-      "status": "sale",
+      "status": "rent",
       "area": "250 acres",
       "location": "Iowa, USA",
       "facilities": ["crop storage silos", "farmhouse", "equipment shed"],
-      "image_url": "https://shorturl.at/ewCGY"
+      "image_url": "https://img.freepik.com/free-photo/brown-wheatfield_395237-107.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708214400&semt=ais"
     },
     {
       "id": 2,

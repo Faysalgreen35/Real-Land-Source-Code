@@ -1,7 +1,7 @@
 # Real Land
 
 ## Live Site URL
-[Visit Real Land](https://example.com)
+[Visit Real Land](https://real-estate-land-2c851.web.app/)
 
 ## Description
 Real Land is a comprehensive online platform dedicated to agricultural land, ranches, farms, vineyards, forests, and plantations. It serves as a marketplace and informational hub for buyers, sellers, investors, and enthusiasts interested in land-related properties and assets.
@@ -14,10 +14,10 @@ Real Land is a comprehensive online platform dedicated to agricultural land, ran
 - **Resource Library**: Access a wealth of resources, guides, and articles on topics such as land management, sustainable agriculture, forestry practices, and vineyard cultivation.
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your-username/Real Land`
+1. Clone the repository: `git clone https://github.com/programming-hero-web-course-4/b9a9-real-estate-Faysalgreen35?tab=readme-ov-file`
 2. Navigate to the project directory: `cd Real Land`
 3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
+4. Start the development server: `npm run dev`
 
 ## Usage
 Once the development server is running, visit `http://localhost:3000` in your web browser to access Real Land. Users can explore property listings, gather information, and connect with sellers or agents for further inquiries.
@@ -35,7 +35,7 @@ Contributions are welcome! If you'd like to contribute to Real Land, please fork
 ## Credits
 - [React](https://reactjs.org/)
 - [React Router](https://reactrouter.com/)
-- [Bootstrap](https://getbootstrap.com/)
+
 
 ## npm Package Used
 - Swiper Slider: [Swiper](https://swiperjs.com/)

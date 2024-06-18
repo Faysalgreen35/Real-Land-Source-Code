@@ -1,7 +1,7 @@
 # Real Land
 
 ## Live Site URL
-[Visit Real Land](https://real-estate-land-2c851.web.app//)
+[Visit Real Land](https://real-estate-land-2c851.web.app)
 
 ## Description
 Real Land is a comprehensive online platform dedicated to agricultural land, ranches, farms, vineyards, forests, and plantations. It serves as a marketplace and informational hub for buyers, sellers, investors, and enthusiasts interested in land-related properties and assets.

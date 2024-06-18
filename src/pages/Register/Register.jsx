@@ -227,17 +227,18 @@ const Register = () => {
     return (
         <div>
               <ToastContainer />
-            <div className="hero min-h-screen bg-base-200" style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
+            <div className="hero min-h-screen bg-base-200" style={{ backgroundImage: 'url(https://i.ibb.co/mG6jkSZ/banner.jpg)' }}>
                 <Helmet>
                     <title>Real Land | Register Page</title>
                 </Helmet>
                 
                 <div className="hero-content flex-col hero-overlay bg-opacity-60 ">
                     <div>
-                        <h1 className="text-5xl font-bold text-white px-36">Register now!</h1>
+                      
                     </div>
 
                     <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                    <h1 className="text-5xl font-bold text-black px-6">Register now!</h1>
                         <form onSubmit={handleSubmit(onSubmit)} className="card-body">
                             <div className="form-control">
                                 <label className="label">

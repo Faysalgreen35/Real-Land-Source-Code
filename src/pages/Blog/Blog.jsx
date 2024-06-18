@@ -61,7 +61,7 @@ const Blog = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-up">
+            <div data-aos="fade-up ">
                 <h2 className="text-3xl font-bold mb-6">Leave a Reply</h2>
                 {/* Content for Leave a Reply section */}
                 <form className='bg-gray-200 px-12 py-12 shadow-2xl'>

@@ -19,8 +19,8 @@ const UserProfile = () => {
            
 
            
-            <div className="card card-compact  bg-base-100 shadow-xl">
-                <figure><img src={user.photoURL} alt="Shoes" /></figure>
+            <div className="card card-compact  bg-base-100 shadow-xl lg:w-96  mx-auto">
+                <figure><img className="w-full" src={user.photoURL} alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title"><span className="font-mono text-3xl ml-2">Email:</span> {user.email}</h2>
                     <h2 className="card-title"><span className="font-mono text-3xl ml-2">Name:</span> {user.displayName}</h2>

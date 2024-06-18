@@ -6,13 +6,39 @@ import { FreeMode, Navigation, Autoplay, Pagination } from 'swiper/modules';
 const Banner = () => {
     return (
         <div className='md:max-w-6xl'>
-            <Swiper
+            {/* <Swiper
                 style={{
                     '--swiper-navigation-color': 'white',
                     '--swiper-pagination-color': 'white',
                 }}
-                slidesPerView={2}
+                slidesPerView={3}
                 spaceBetween={10}
+                navigation={true}
+                pagination={{ clickable: true }}
+                modules={[FreeMode, Navigation, Autoplay, Pagination]}
+                loop={true}
+                autoplay={{ delay: 2000 }}
+                className="mySwiper3"
+            > */}
+              <Swiper
+                style={{
+                    '--swiper-navigation-color': 'white',
+                    '--swiper-pagination-color': 'white',
+                }}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 1,
+                        spaceBetween: 10,
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 10,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 10,
+                    },
+                }}
                 navigation={true}
                 pagination={{ clickable: true }}
                 modules={[FreeMode, Navigation, Autoplay, Pagination]}
